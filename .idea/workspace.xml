@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2917572-ca14-475e-bcc1-e9e306c776db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/beforeUsingPattern/Baum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/beforeUsingPattern/Elefant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/beforeUsingPattern/Gras.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/beforeUsingPattern/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/beforeUsingPattern/Regenwaldgenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/withPatternUsing/AbstractGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/withPatternUsing/Baum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/withPatternUsing/Eisbär.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/withPatternUsing/Elefant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/withPatternUsing/Flechte.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/withPatternUsing/Gras.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/withPatternUsing/Kaktus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/withPatternUsing/Kamel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/withPatternUsing/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/withPatternUsing/Pflanze.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/withPatternUsing/Polargebietgenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/withPatternUsing/RegenwaldGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/withPatternUsing/Sand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/withPatternUsing/Schnee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/withPatternUsing/Tier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/withPatternUsing/Untergrund.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/abstractFactory/withPatternUsing/WüstenGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/builder/robotExample/IRobot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/builder/robotExample/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/builder/robotExample/OldRobot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/builder/robotExample/OldRobotBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/builder/robotExample/RobotBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/builder/robotExample/RobotEngineer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/builder/userExample/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/builder/userExample/UserBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/decorator/beforeUsingPattern/Gericht.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/decorator/beforeUsingPattern/Schnitzel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/decorator/beforeUsingPattern/SchnitzelMitPommes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/decorator/beforeUsingPattern/SchnitzelMitPommesMitMajo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/decorator/beforeUsingPattern/Tofu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/decorator/withPatternUsing/Beilage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/decorator/withPatternUsing/Gericht.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/decorator/withPatternUsing/Hueftsteak.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/decorator/withPatternUsing/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/decorator/withPatternUsing/Pommes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/decorator/withPatternUsing/Salat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/decorator/withPatternUsing/Tofu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/Erzeugungsmuster/singleton/MySingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/META-INF/Patterns.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/OCA/CastProblems.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/OCA/ImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/OCA/InfinityLoop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/OCA/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/OCA/While.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/OCA/tenaerAusdruck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/lambda/Examples.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Patterns/lambda/WhatEver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Erzeugungsmuster/builder/robotExample/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OCA/CastProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCA/CastProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OCA/ImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCA/ImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OCA/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCA/Test.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/builder/robotExample/OldRobot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/builder/robotExample/OldRobotBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/decorator/withPatternUsing/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/decorator/withPatternUsing/Pommes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/decorator/withPatternUsing/Beilage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/singleton/MySingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/builder/robotExample/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/decorator/withPatternUsing/Gericht.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/decorator/withPatternUsing/Hueftsteak.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/builder/robotExample/RobotBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/lambda/Examples.java" />
+        <option value="$PROJECT_DIR$/src/Erzeugungsmuster/builder/userBuilder.java" />
+        <option value="$PROJECT_DIR$/src/Erzeugungsmuster/builder/User.java" />
+        <option value="$PROJECT_DIR$/src/Erzeugungsmuster/builder/UserBuilder.java" />
+        <option value="$PROJECT_DIR$/src/Erzeugungsmuster/builder/UserExample/UserBuilder.java" />
+        <option value="$PROJECT_DIR$/src/Erzeugungsmuster/builder/RobotExample/OldRobotBuilder.java" />
+        <option value="$PROJECT_DIR$/src/Erzeugungsmuster/builder/RobotExample/rRobotBuilder.java" />
+        <option value="$PROJECT_DIR$/src/Erzeugungsmuster/builder/RobotExample/RobotBuilder.java" />
+        <option value="$PROJECT_DIR$/src/Erzeugungsmuster/builder/RobotExample/RobotEngineer.java" />
+        <option value="$PROJECT_DIR$/src/Erzeugungsmuster/builder/RobotExample/OldRobotBuider.java" />
+        <option value="$PROJECT_DIR$/src/Erzeugungsmuster/builder/RobotExample/RobotEntity.java" />
+        <option value="$PROJECT_DIR$/src/Erzeugungsmuster/builder/robotExample/Main.java" />
+        <option value="$PROJECT_DIR$/src/OCA/While.java" />
+        <option value="$PROJECT_DIR$/src/OCA/tenaerAusdruck.java" />
+        <option value="$PROJECT_DIR$/src/OCA/InfinityLoop.java" />
+        <option value="$PROJECT_DIR$/src/OCA/CastProblems.java" />
+        <option value="$PROJECT_DIR$/src/OCA/Main.java" />
+        <option value="$PROJECT_DIR$/src/OCA/Test.java" />
+        <option value="$PROJECT_DIR$/src/OCA/ImplTest.java" />
+        <option value="$PROJECT_DIR$/src/Erzeugungsmuster/abstractFactory/withPatternUsing/Main.java" />
+        <option value="$PROJECT_DIR$/src/Erzeugungsmuster/builder/robotExample/test.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Erzeugungsmuster" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Erzeugungsmuster" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractFactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Erzeugungsmuster" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Erzeugungsmuster" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+              <item name="robotExample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Erzeugungsmuster" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+              <item name="userExample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Erzeugungsmuster" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Erzeugungsmuster" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578265097508" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.test">
+    <configuration name="ImplTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCA.ImplTest" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OCA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InfinityLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCA.InfinityLoop" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OCA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Erzeugungsmuster.abstractFactory.withPatternUsing.Main" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Erzeugungsmuster.abstractFactory.withPatternUsing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCA.Main" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OCA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Erzeugungsmuster.builder.robotExample.test" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Erzeugungsmuster.builder.robotExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.ImplTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.InfinityLoop" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2917572-ca14-475e-bcc1-e9e306c776db" name="Default Changelist" comment="" />
+      <created>1567858498243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567858498243</updated>
+      <workItem from="1567858499520" duration="1802000" />
+      <workItem from="1567866976616" duration="892000" />
+      <workItem from="1568155735864" duration="1005000" />
+      <workItem from="1568740731324" duration="541000" />
+      <workItem from="1568834198966" duration="5120000" />
+      <workItem from="1569149170823" duration="21000" />
+      <workItem from="1569149565603" duration="485000" />
+      <workItem from="1569261870158" duration="5145000" />
+      <workItem from="1569958210868" duration="2245000" />
+      <workItem from="1570816077195" duration="387000" />
+      <workItem from="1572894771193" duration="79000" />
+      <workItem from="1574330860458" duration="439000" />
+      <workItem from="1578262732110" duration="2365000" />
+      <workItem from="1578438025356" duration="247000" />
+      <workItem from="1578771219937" duration="148000" />
+    </task>
+    <task id="LOCAL-00001" summary="mmm">
+      <created>1567865271030</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567865271031</updated>
+    </task>
+    <task id="LOCAL-00002" summary="BuilderPattern">
+      <created>1567867510863</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567867510864</updated>
+    </task>
+    <task id="LOCAL-00003" summary="BuilderPattern">
+      <created>1568834272454</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568834272455</updated>
+    </task>
+    <task id="LOCAL-00004" summary="BuilderPattern">
+      <created>1568841607467</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568841607467</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20921000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3266745" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3983549" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32756326" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32756326" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mmm" />
+    <MESSAGE value="BuilderPattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="BuilderPattern" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/builder/RobotExample/RobotEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/builder/robotExample/OldRobotBuider.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-928">
+          <caret line="733" column="16" selection-start-line="733" selection-start-column="16" selection-end-line="733" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="400" column="19" selection-start-line="400" selection-start-column="15" selection-end-line="400" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="446" column="13" selection-start-line="446" selection-start-column="13" selection-end-line="446" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="3798" column="30" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="764" column="26" selection-start-line="764" selection-start-column="26" selection-end-line="764" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambda/Examples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCA/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/builder/robotExample/RobotEngineer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCA/While.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCA/tenaerAusdruck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCA/InfinityLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCA/CastProblems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCA/ImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCA/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/abstractFactory/withPatternUsing/Polargebietgenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/abstractFactory/withPatternUsing/AbstractGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/abstractFactory/withPatternUsing/Pflanze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/abstractFactory/withPatternUsing/Baum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/abstractFactory/withPatternUsing/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/builder/userExample/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/builder/userExample/UserBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/builder/robotExample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/builder/robotExample/IRobot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/builder/robotExample/OldRobot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/builder/robotExample/OldRobotBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/decorator/withPatternUsing/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/decorator/withPatternUsing/Pommes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/decorator/withPatternUsing/Beilage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/singleton/MySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/decorator/withPatternUsing/Gericht.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/decorator/withPatternUsing/Hueftsteak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/builder/robotExample/RobotBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erzeugungsmuster/builder/robotExample/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
