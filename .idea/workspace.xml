@@ -20,12 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2917572-ca14-475e-bcc1-e9e306c776db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCA/Paket1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCA/Paket2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCA/Volker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Patterns/OCA/ImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Patterns/OCA/ImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Patterns/OCA/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Patterns/OCA/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OCA/ImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OCA/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patterns/META-INF/Patterns.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Patterns/META-INF/Patterns.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patterns/OCA/ImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patterns/OCA/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OCA/InfinityLoop.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.Volker">
     <configuration name="ImplTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OCA.ImplTest" />
       <module name="Patterns" />
@@ -111,6 +113,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Volker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCA.Volker" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OCA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-14.jdk/Contents/Home" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -132,11 +147,13 @@
       <item itemvalue="Application.InfinityLoop" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Volker" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ImplTest" />
+        <item itemvalue="Application.Volker" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.ImplTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.InfinityLoop" />
       </list>
@@ -170,6 +187,7 @@
       <workItem from="1589309819074" duration="134000" />
       <workItem from="1589310104100" duration="1263000" />
       <workItem from="1589390811633" duration="627000" />
+      <workItem from="1589643282252" duration="3982000" />
     </task>
     <task id="LOCAL-00001" summary="mmm">
       <created>1567865271030</created>
@@ -231,25 +249,45 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="184" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.821@0.23.1440.821" timestamp="1589643232887" />
-    <state width="1358" height="246" key="GridCell.Tab.0.bottom" timestamp="1589643168915">
+    <state width="1358" height="197" key="GridCell.Tab.0.bottom" timestamp="1589649526485">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1358" height="246" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1589643168915" />
-    <state width="1358" height="246" key="GridCell.Tab.0.center" timestamp="1589643168914">
+    <state width="1358" height="197" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1589649526485" />
+    <state width="1358" height="197" key="GridCell.Tab.0.center" timestamp="1589649526485">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1358" height="246" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1589643168914" />
-    <state width="1358" height="246" key="GridCell.Tab.0.left" timestamp="1589643168913">
+    <state width="1358" height="197" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1589649526485" />
+    <state width="1358" height="197" key="GridCell.Tab.0.left" timestamp="1589649526484">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1358" height="246" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1589643168913" />
-    <state width="1358" height="246" key="GridCell.Tab.0.right" timestamp="1589643168915">
+    <state width="1358" height="197" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1589649526484" />
+    <state width="1358" height="197" key="GridCell.Tab.0.right" timestamp="1589649526485">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1358" height="246" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1589643168915" />
+    <state width="1358" height="197" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1589649526485" />
+    <state width="1358" height="246" key="GridCell.Tab.1.bottom" timestamp="1589643268427">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1358" height="246" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1589643268427" />
+    <state width="1358" height="246" key="GridCell.Tab.1.center" timestamp="1589643268426">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1358" height="246" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1589643268426" />
+    <state width="1358" height="246" key="GridCell.Tab.1.left" timestamp="1589643268426">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1358" height="246" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1589643268426" />
+    <state width="1358" height="246" key="GridCell.Tab.1.right" timestamp="1589643268427">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1358" height="246" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1589643268427" />
     <state x="208" y="23" width="1024" height="821" key="SettingsEditor" timestamp="1589643156163">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="208" y="23" width="1024" height="821" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1589643156163" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1589646345979">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.23.1440.821@0.23.1440.821" timestamp="1589646345979" />
   </component>
 </project>
