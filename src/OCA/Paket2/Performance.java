@@ -1,13 +1,10 @@
 package OCA.Paket2;
 
-public class Performance implements Forest, Forest2{
-    
-    public String talk(String... a) {
-        return null;
+public class Performance {
+
+    public static void main(String... data) {
+
+        
     }
 
-    @Override
-    public String talk() {
-        return null;
-    }
 }
