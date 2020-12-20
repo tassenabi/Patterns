@@ -33,7 +33,8 @@ public enum Planet {
     }
 
     public static void main(String[] args) {
-        double earthWeight = 2d;//Double.parseDouble(args[0]);
+        //Edit Configurations beim Start
+        double earthWeight = Double.parseDouble(args[0]);
         double mass = earthWeight / Planet.ERDE.surfaceGravity();
 
         System.out.println(earthWeight + " kg sind auf: ");
