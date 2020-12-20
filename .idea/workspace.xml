@@ -20,7 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2917572-ca14-475e-bcc1-e9e306c776db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/0471dc9ec5da72a8ecb137feb9d4f3bb14c58a28" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/089ce6b9b4d8bd07b3c25c0773023407126c41d3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/21f6869f36c32334414086799326bad127d6612b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/3795bfad43d15d258b9a7ff501175d8ebc16a7c2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/522861945f46ed5683bf0ff37cd28776a2dc6876" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7fa55ce233fb3dbd40e089b8ad944424b0b723bc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90351c62b0b24d16c3375074f17e926de93c8616" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/944d79b438d088fcd3a545f8be4c66a723391f67" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/98dd83249b3e400e2a3ec180f5bcc5bfa724e5c4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca39013a484fc9b19f96188915f70ad327a840da" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d35307c346ab2fce1f9908df5fc2957d1a70be82" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EnumsExample/Planets/Planet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +45,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -54,26 +67,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Performance">
+  <component name="RunManager" selected="Application.Planet">
     <configuration name="Forest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OCA.Paket2.Forest" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OCA.Paket2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImplTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCA.ImplTest" />
-      <module name="Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OCA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,6 +100,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OCA.Paket2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Planet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EnumsExample.Planets.Planet" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EnumsExample.Planets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,32 +148,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.test" />
-      <item itemvalue="Application.ImplTest" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Volker" />
       <item itemvalue="Application.Forest" />
       <item itemvalue="Application.Performance" />
+      <item itemvalue="Application.Planet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Planet" />
         <item itemvalue="Application.Performance" />
         <item itemvalue="Application.Forest" />
         <item itemvalue="Application.Volker" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.ImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +215,8 @@
       <workItem from="1590078736738" duration="27000" />
       <workItem from="1592174488318" duration="432000" />
       <workItem from="1592176092830" duration="58000" />
-      <workItem from="1598534983356" duration="22000" />
+      <workItem from="1598534983356" duration="762000" />
+      <workItem from="1608472617730" duration="1146000" />
     </task>
     <task id="LOCAL-00001" summary="mmm">
       <created>1567865271030</created>
@@ -254,49 +270,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="BuilderPattern" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="208" y="23" width="1024" height="832" key="#Project_Structure" timestamp="1598535002252">
-      <screen x="0" y="23" width="1440" height="832" />
+    <state width="1638" height="257" key="GridCell.Tab.0.bottom" timestamp="1608473734994">
+      <screen x="0" y="25" width="1680" height="974" />
     </state>
-    <state x="208" y="23" width="1024" height="832" key="#Project_Structure/0.23.1440.832@0.23.1440.832" timestamp="1598535002252" />
-    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1589917929176">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1638" height="257" key="GridCell.Tab.0.bottom/0.25.1680.974@0.25.1680.974" timestamp="1608473734994" />
+    <state width="1638" height="257" key="GridCell.Tab.0.center" timestamp="1608473734993">
+      <screen x="0" y="25" width="1680" height="974" />
     </state>
-    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser/0.23.1440.821@0.23.1440.821" timestamp="1589917929176" />
-    <state width="1358" height="246" key="GridCell.Tab.0.bottom" timestamp="1589922096182">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1638" height="257" key="GridCell.Tab.0.center/0.25.1680.974@0.25.1680.974" timestamp="1608473734993" />
+    <state width="1638" height="257" key="GridCell.Tab.0.left" timestamp="1608473734993">
+      <screen x="0" y="25" width="1680" height="974" />
     </state>
-    <state width="1358" height="246" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1589922096182" />
-    <state width="1358" height="246" key="GridCell.Tab.0.center" timestamp="1589922096181">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1638" height="257" key="GridCell.Tab.0.left/0.25.1680.974@0.25.1680.974" timestamp="1608473734993" />
+    <state width="1638" height="257" key="GridCell.Tab.0.right" timestamp="1608473734993">
+      <screen x="0" y="25" width="1680" height="974" />
     </state>
-    <state width="1358" height="246" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1589922096181" />
-    <state width="1358" height="246" key="GridCell.Tab.0.left" timestamp="1589922096181">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state width="1358" height="246" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1589922096181" />
-    <state width="1358" height="246" key="GridCell.Tab.0.right" timestamp="1589922096181">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state width="1358" height="246" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1589922096181" />
-    <state width="1358" height="246" key="GridCell.Tab.1.bottom" timestamp="1589922096183">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state width="1358" height="246" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1589922096183" />
-    <state width="1358" height="246" key="GridCell.Tab.1.center" timestamp="1589922096182">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state width="1358" height="246" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1589922096182" />
-    <state width="1358" height="246" key="GridCell.Tab.1.left" timestamp="1589922096182">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state width="1358" height="246" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1589922096182" />
-    <state width="1358" height="246" key="GridCell.Tab.1.right" timestamp="1589922096183">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state width="1358" height="246" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1589922096183" />
-    <state x="88" y="56" key="new project wizard" timestamp="1592174920089">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state x="88" y="56" key="new project wizard/0.23.1440.821@0.23.1440.821" timestamp="1592174920089" />
+    <state width="1638" height="257" key="GridCell.Tab.0.right/0.25.1680.974@0.25.1680.974" timestamp="1608473734993" />
   </component>
 </project>
