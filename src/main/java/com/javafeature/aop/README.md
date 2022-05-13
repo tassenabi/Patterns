@@ -1,3 +1,12 @@
+JointPoint: Bestimmter Punkt zuir Laufzeit eines Programmes
+
+Advice: Bestimmt die Aktion, die ein Aspect ausführt. Wird also vor, nach oder um den Jooin Point ausgeführt.
+
+Weaving: Prozess, der Klassen und Aspekte verwebt ... Also mittels @Chacheable an einer Klasse ... Kann
+
+während der Kompilierung oder auf Bytecodeebene vorkommen.
+
+
 AOP:
 Introduction:
 --> Cross cutting Concerns:

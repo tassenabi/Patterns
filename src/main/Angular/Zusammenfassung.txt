@@ -1,0 +1,131 @@
+Module                  Vergleichbar mit Assemblies
+
+                        - Ausführbare (*.exe)
+
+                          Application Module
+
+
+
+                        - Teilbare (*.dll)
+
+                         (Angular Libraries)
+
+                          Shared Module, Freature Module
+
+
+
+Component               Eignes HTML-Element
+
+                        - Vergleichbar mit User Controls
+
+
+
+Directives              Vorhandenes HTML-Element um Logik erweitern
+
+                        Build-In:
+
+                        - *ngFor
+
+                        - *ngIf
+
+                        - ngClass
+
+
+
+                        FormsModule:
+
+                        - ngModel
+
+
+
+Data-Binding            Datenkommunikation von View mit ViewModel
+
+                        - {{}} Interpolation Binding - One-Way
+
+                        - [] Attribute Binding - One-Way
+
+                        - () Event Binding - One-Way
+
+                        - # Element to Element Binding - One-Way
+
+                        - [()] Two-Way Binding
+
+
+
+Services                Für Geschäftslogik oder ruft auch Web-Service mit Geschäftslogik auf
+
+
+
+Pipes                   Das Formatieren von Daten beim Data-Binding (ValueConverter)
+
+
+
+Guards                  Schutz vor Navigationsrouten
+
+
+
+## Komponeten zu Kompontenten kommunikation
+
+- Input - Erzeugt ein HTML-Attribute um Daten empfangen zu können
+
+- Output - Erzeugt ein HTML-Event um Daten zu Liefern
+
+
+
+## Ab wann in Komponenten aufteilen
+
+1. Wenn wirklich etwas wiederverwendet wird.
+
+2. Wenn es der Übersicht dient.
+
+3. Technisch bediengt.
+
+4. Listenbasierten Inhalt auslagern. (Aus Performancegründen)
+
+
+
+## Smart and Dumb Components Patterns
+
+
+
+## Lifecycle von Komponenten
+
+
+
+- Konstruktor (Komponente wurde erzeugt, KEINE LOGIK)
+
+- OnInit (Loaded Event, also erster Render vorgang wurde ausgeführt)
+
+- OnDestroy
+
+- DoCheck (Wird ausgeführt, wenn eine Change Detection aktiv wurde)
+
+- OnChangesan
+
+
+
+## Angular CLI
+
+
+
+ng new                Ein neues Projekt anlegen
+
+ng lint               Hinterlegter Linter ausführen
+
+ng serve              Erstellt die Angular App und stellt sie uns via Web-Server lokal bereit
+
+ng generate
+
+ng build
+
+
+
+# Angular Universum
+
+
+
+Angular Elements (Web Componente)
+
+Router            Navigation Framework
+
+Forms             2 x Formular APIs
