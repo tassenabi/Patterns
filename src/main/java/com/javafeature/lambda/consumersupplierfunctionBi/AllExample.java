@@ -8,7 +8,7 @@ public class AllExample {
     //consumer -> no result
     //Function -> input and output
     //supplier -> no input, only output
-    //BiFunction ->
+    //BiFunction -> Zwei Input, ein Output
 
     public static void main(String[] args){
 
