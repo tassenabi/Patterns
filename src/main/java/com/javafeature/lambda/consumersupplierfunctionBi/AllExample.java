@@ -10,6 +10,7 @@ public class AllExample {
     //supplier -> no input, only output
     //BiFunction -> Zwei Input, ein Output
 
+
     public static void main(String[] args){
 
         //1. Beispiel Predicate
