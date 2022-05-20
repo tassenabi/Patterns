@@ -2,6 +2,7 @@ package com.javafeature.lambda.exercises;
 
 
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -15,6 +16,8 @@ public class Main {
         var sportsProducts = Testdaten.getSportsProducts();
         var electronicsProducts = Testdaten.getElectronicsProducts();
 
+/**
+        Predicate<Product> electronicsGT100 = product -> product
 
         List<Product> productResult = allProducts.stream()
                 .filter(product -> product.getCategory().equalsIgnoreCase("electronics") && product.getPrice() > 100)
@@ -33,4 +36,5 @@ public class Main {
         }
 
     }
-}
+ **/
+}}

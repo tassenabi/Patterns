@@ -1,5 +1,5 @@
 ##Exercise 1
-Obtain a list of products belongs to category “Books” with price > 100
+Obtain a list of products belongs to category “Electronics” with price > 100
 
 ##Exercise 2
 Obtain a list of order with products belong to category “Baby”
