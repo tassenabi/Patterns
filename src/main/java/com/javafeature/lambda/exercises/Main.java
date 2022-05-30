@@ -6,6 +6,9 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
+import java.util.stream.DoubleStream;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -29,7 +32,7 @@ public class Main {
                 .filter(order -> order.getProducts()
                         .stream()
                         .allMatch((product -> product.getCategory().equalsIgnoreCase("ball sports")))).toList();
-        orderResult.forEach(System.out::println);
+        //orderResult.forEach(System.out::println);
 
         //3. Aufgabe
         //Obtain a list of product with category = “electronics” and then apply 10% discount
@@ -48,7 +51,7 @@ public class Main {
         List<Order> oleks = allOrders.stream()
                 .filter(tier1Customer.and(beforeDate).and(beforeDate)).toList();
 
-        oleks.forEach(System.out::println);
+        //oleks.forEach(System.out::println);
 
 
         //5. Aufgabe
@@ -57,5 +60,41 @@ public class Main {
                 .min(Comparator.comparingDouble(Product::getPrice));
 
         var product = minPrice.orElse(new Product(0, "kein Produkt", "keine Kategorie", 0d));
+
+        //6. Aufgabe
+        //Get the 3 most recent placed order
+        var threeRecentsOrders = allOrders.stream()
+                .sorted(Comparator.comparing(Order::getOrderDate)
+                        .reversed())
+                .limit(3)
+                .toList();
+
+
+        //7. Aufgabe
+        //Get a list of orders which were ordered on 15-Mar-2021, log the order records to the console and then return its product list
+        var ddd = allOrders.stream().filter(o -> o.getOrderDate().isEqual(LocalDate.of(2021, 3, 15))).toList();
+
+        //ddd.forEach(System.out::println);
+
+        //8. Aufgabe
+        //Calculate total lump sum of all orders placed in Feb 2021
+        Predicate<Order> orderPredicate = o ->
+                o.getOrderDate().isAfter(LocalDate.of(2021, 2, 1)) &&
+                        o.getOrderDate().isBefore(LocalDate.of(2021, 3, 1));
+
+        var filteredOrdersFebruary = allOrders.stream()
+                .filter(orderPredicate)
+                .flatMapToDouble(order -> order.getProducts().stream().mapToDouble(Product::getPrice)).sum();
+
+
+        //9. Aufgabe
+        //Calculate order average payment placed on 14-Mar-2021
+        Predicate<Order> march14 = o ->
+                o.getOrderDate().isEqual(LocalDate.of(2021, 3, 14));
+
+        var filteredOrdersPaymentsInMarch = allOrders.stream().
+                filter(march14)
+                .flatMapToDouble(order -> order.getProducts().stream().mapToDouble(Product::getPrice)).average().orElse(0.00);
     }
+
 }

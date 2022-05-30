@@ -17,8 +17,8 @@ public class Testdaten {
 
         orderList.add(new Order(1122, LocalDate.of(2021, 10, 1), LocalDate.of(2021, 10, 5), "delivered", customer1, allProductList ));
         orderList.add(new Order(1123, LocalDate.of(2021, 10, 5), LocalDate.of(2021, 10, 7), "delivered", customer1, sportsProducts ));
-        orderList.add(new Order(1124, LocalDate.of(2021, 10, 14), LocalDate.of(2021, 10, 15), "delivered", customer1, sportsProducts ));
-        orderList.add(new Order(1125, LocalDate.of(2021, 3, 7), LocalDate.of(2021, 3, 12), "delivered", customer1, electronicsProducts ));
+        orderList.add(new Order(1124, LocalDate.of(2021, 2, 14), LocalDate.of(2021, 10, 15), "delivered", customer1, sportsProducts ));
+        orderList.add(new Order(1125, LocalDate.of(2021, 2, 15), LocalDate.of(2021, 3, 12), "delivered", customer1, electronicsProducts ));
         orderList.add(new Order(1126, LocalDate.of(2021, 5, 8), LocalDate.of(2021, 5, 11), "delivered", customer1, electronicsProducts ));
 
         return orderList;
