@@ -13,6 +13,16 @@ public class Main {
         System.out.println(addResult);
         System.out.println(multiplyResult);
 
+        //T -> R Function
+        //(int, int) -> int IntBinaryOperator
+        //T -> void Consumer
+        //()  -> T Supplier
+        //(Tu,U) -> R BiFunction
+
     }
+
+    int portname = 1337;
+    Runnable r = () -> System.out.println(portname);
+    //portname = 12;
 
 }
